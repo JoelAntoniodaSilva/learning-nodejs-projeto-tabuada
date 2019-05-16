@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Projeto Tabuada</title>
+
+</head>
+
+<body>
+
+<main>
+
+	<h1>Projeto Tabuada</h1>
+
+	<p>Resultado da tabuada do número <%= numero %></p>
+
+	<table>
+		<thead>
+			<tbody>
+				<% for (var i=1; i<= 10; i++) { %>
+			<tr>
+				<td><%= numero %> x <%= i %></td>
+				<td><%= numero * i %></td>
+
+			</tr>
+				<% } %>
+		</tbody>
+		</thead>
+	</table>
+
+</main>
+
+</body>
+
+
+</html>
