@@ -16,3 +16,26 @@ $ node --version
 
 $ git --version
 ```
+
+## Instalação
+
+Clonar o repositório do Github e usar o 'npm'do Nodwe.Js para instalar as dependencias de módulos.
+
+```bash
+ $ git clone https://github.com/JoelAntoniodaSilva/learning-node-projeto-tabuada.git
+
+$ cd learning-node-projeto-tabuada/
+
+$ npm install
+```
+## Utilização
+
+Para rodar a aplicação executar:
+``` bash
+$node app
+```
+
+A Aplicação esta configurada para rodar na porta 3000.
+Para acessar a aplicação entrar no endereço
+
+http://localhost:3000. Para alterar o numero de porta editar o arquivo `app.js`.
